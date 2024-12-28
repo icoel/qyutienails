@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nail Art by qyutienail</title>
+    
+  <!-- Menambahkan favicon -->
+  <link rel="icon" href="icon.png" type="image/x-icon">
+  
+  <!-- Jika menggunakan gambar PNG -->
+  <!-- <link rel="icon" href="favicon.png" type="image/png"> -->
+  
+  <style>
+    /* CSS kamu yang lain */
+  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe560;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ffddc1, #ffe9c7);
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+        header p {
+            font-size: 16px;
+            margin: 5px 0 0;
+        }
+        .banner {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .banner img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 180px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cta {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta a {
+            display: inline-block;
+            background-color: #ffb6b9;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .cta a:hover {
+            background-color: #ff9094;
+        }
+        footer {
+            background-color: #ffddc1;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        
+        /* Media Query untuk perangkat mobile */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+            header p {
+                font-size: 14px;
+            }
+            .section h2 {
+                font-size: 20px;
+            }
+            .gallery img {
+                max-width: 100%;
+                width: 45%;
+            }
+            .cta a {
+                font-size: 16px;
+                padding: 8px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 22px;
+            }
+            header p {
+                font-size: 12px;
+            }
+            .cta a {
+                font-size: 14px;
+                padding: 6px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nail Art by qyutienail</h1>
+        <p>"make your nails look cute and nice!💕"</p>
+    </header>
+
+    <div class="banner">
+        <img src="banner1.jpg" alt="Nail Art by Icul Banner">
+    </div>
+
+    <div class="content">
+        <div class="section">
+            <h2>Galeri Desain Nail Art</h2>
+            <div class="gallery">
+                <img src="produk1.jpg" alt="Edisi Konser">
+                <img src="produk2.jpg" alt="extraordinary cute">
+                <img src="produk3.jpg" alt="daily look!">
+                <img src="produk4.jpg" alt="Seasonal Themes">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Layanan yang Ditawarkan</h2>
+            <ul>
+                <li>🎀 Nail Art Custom: Desain sesuai keinginanmu.</li>
+                <li>🎀 Pre-made Nail Sets: Press-on nails ready-to-go.</li>
+                <li>🎀 Paket Gift: Pilihan kuku cantik untuk hadiah.</li>
+                <li>🎀 Ngonser!!: Jadikan pertemuan dengan idolmu semakin seru!.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Testimoni Pelanggan</h2>
+            <blockquote>"Kukunya super lucu, aku dapat banyak pujian! 🥰" - Lisa</blockquote>
+            <blockquote>"Desainnya unik dan bener-bener awet!" - Dina</blockquote>
+        </div>
+
+        <div class="cta">
+            <p>🎉 Promo Spesial Pembukaan: Diskon 20% untuk pembelian pertama! 🎉</p>
+            <a href="https://wa.me/6283134178545">Hubungi Kami</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 Nail Art by qyutienails. </p>
+    </footer>
+</body>
+</html>
